@@ -1,0 +1,47 @@
+#app ul{
+  list-style:none;
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+}
+
+input{
+  padding: 10px 20px;
+}
+.container{
+  width: 400px;
+  margin: 0 auto;
+}
+#app{
+  text-align: center;
+  
+}
+h1{
+  color: #fff;
+  background: #008080;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+button{
+  margin-left: 20px;
+  padding: 10px 20px ;
+  background: #00CED1;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 20px black;
+  opacity: 0.7;
+}
+button:hover{
+  opacity: 1.1;
+}
+.checkbox{
+  padding: 10px;
+}
+li{
+  margin: 20px 0;
+}
+.deletebotton{
+  background:#136FFF;
+}
